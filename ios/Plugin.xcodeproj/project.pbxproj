@@ -270,11 +270,27 @@
 				"${PODS_ROOT}/Target Support Files/Pods-PluginTests/Pods-PluginTests-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Capacitor/Capacitor.framework",
 				"${BUILT_PRODUCTS_DIR}/CapacitorCordova/Cordova.framework",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/ZendeskSDKConversationKit/ZendeskSDKConversationKit.framework/ZendeskSDKConversationKit",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/ZendeskSDKFayeClient/ZendeskSDKFayeClient.framework/ZendeskSDKFayeClient",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/ZendeskSDKHTTPClient/ZendeskSDKHTTPClient.framework/ZendeskSDKHTTPClient",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/ZendeskSDKLogger/ZendeskSDKLogger.framework/ZendeskSDKLogger",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/ZendeskSDKMessaging/ZendeskSDKMessaging.framework/ZendeskSDKMessaging",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/ZendeskSDKSocketClient/ZendeskSDKSocketClient.framework/ZendeskSDKSocketClient",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/ZendeskSDKStorage/ZendeskSDKStorage.framework/ZendeskSDKStorage",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/ZendeskSDKUIComponents/ZendeskSDKUIComponents.framework/ZendeskSDKUIComponents",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Capacitor.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cordova.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZendeskSDKConversationKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZendeskSDKFayeClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZendeskSDKHTTPClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZendeskSDKLogger.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZendeskSDKMessaging.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZendeskSDKSocketClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZendeskSDKStorage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZendeskSDKUIComponents.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
