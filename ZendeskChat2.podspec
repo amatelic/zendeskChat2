@@ -14,5 +14,8 @@ Pod::Spec.new do |s|
   s.ios.deployment_target  = '12.0'
   s.dependency 'Capacitor'
   s.dependency 'ZendeskSDKMessaging'
+  s.dependency 'ZendeskAnswerBotSDK'
+  s.dependency 'ZendeskSupportSDK', '~> 5.0.5'
+  s.dependency 'ZendeskChatSDK'
   s.swift_version = '5.2.2'
 end

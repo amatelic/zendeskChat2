@@ -10,6 +10,9 @@ end
 target 'Plugin' do
   capacitor_pods
   pod 'ZendeskSDKMessaging'
+  pod 'ZendeskAnswerBotSDK' # AnswerBot-only on the Unified SDK
+  pod 'ZendeskChatSDK'      # Chat-only on the Unified SDK
+  pod 'ZendeskSupportSDK'   # Support-only on the Unified SDK
 end
 
 target 'PluginTests' do

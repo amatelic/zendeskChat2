@@ -7,4 +7,14 @@ export class ZendeskChat2Web extends WebPlugin implements ZendeskChat2Plugin {
     console.log('ECHO', options);
     return options;
   }
+
+  initialize(): Promise<void> {
+    return Promise.resolve();
+  };
+  open(): Promise<void> {
+    return Promise.resolve();
+  }
+  setVisitorInfo(): Promise<void> {
+    return Promise.resolve();
+  }
 }
